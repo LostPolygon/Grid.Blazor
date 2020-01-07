@@ -576,7 +576,7 @@ namespace GridBlazor.Pages
 
         public async Task SetFocus(ElementReference element)
         {
-            await jSRuntime.InvokeVoidAsync("gridJsFunctions.focusElement", element);
+            //await jSRuntime.InvokeVoidAsync("gridJsFunctions.focusElement", element);
         }
 
         public async Task GridComponentKeyup(KeyboardEventArgs e)
